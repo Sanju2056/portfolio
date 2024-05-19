@@ -1,6 +1,5 @@
 import "./App.css";
 import Home from "./Home";
-import MainComponent from "./Important";
 import AboutUs from "./aboutUs";
 import MobileNavBar from "./mobileNavBar";
 import NavBar from "./navbar";

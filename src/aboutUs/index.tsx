@@ -1,4 +1,3 @@
-import React from "react";
 import { BadgeImage, EducationImage, ProfileImage } from "../assets/images";
 
 const AboutUs = () => {
