@@ -12,8 +12,8 @@ const MobileNavBar = () => {
       // activeLink:false
     },
     {
-      title: "Experience",
-      Link: "/experience",
+      title: "Skills",
+      Link: "/skills",
       // activeLink:false
     },
     {
@@ -29,7 +29,7 @@ const MobileNavBar = () => {
   ];
   return (
     <div className="visible lg:hidden md:px-14 px-8 flex items-center justify-between mt-5 ">
-      <div className="text-xl md:text-2xl" 
+      <div className="text-3xl md:text-2xl cursor-pointer caveat-uniquifier-600" 
       onClick={()=>{
         navigate('/')
       }}>Sanju Gurung</div>
@@ -44,7 +44,7 @@ const MobileNavBar = () => {
       <div
         className={`ease-in duration-300 ${
           showSideBar ? "opacity-100" : "opacity-0"
-        } flex flex-col h-max w-full right-0 absolute top-14 bg-white text-gray-g-500 shadow transition-opacity`}
+        } caveat-uniquifier-500 flex flex-col h-max w-full right-0 absolute top-14 bg-white text-gray-g-500 shadow transition-opacity`}
       >
         {showSideBar &&
           NavLiks.map((item) => (

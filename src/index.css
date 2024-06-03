@@ -2,4 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 /* fonts.css */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+.caveat-uniquifier-100 {
+  @apply font-caveat font-thin;
+}
+
+.caveat-uniquifier-200 {
+  @apply font-caveat font-extralight;
+}
+.caveat-uniquifier-300 {
+  @apply font-caveat font-light;
+}
+
+.caveat-uniquifier-400 {
+  @apply font-caveat font-normal;
+}
+.caveat-uniquifier-500 {
+  @apply font-caveat font-medium;
+}
+
+.caveat-uniquifier-600 {
+  @apply font-caveat font-semibold;
+}
+.caveat-uniquifier-700 {
+  @apply font-caveat font-bold;
+}
+
+.caveat-uniquifier-800 {
+  @apply font-caveat font-extrabold;
+}
