@@ -1,5 +1,4 @@
 import "./App.css";
-import Home from "./Home";
 import MainComponent from "./Important";
 import AboutUs from "./aboutUs";
 import ContactUs from "./contact";
