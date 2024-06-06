@@ -37,7 +37,7 @@ const NavBar = () => {
               <div
                 key={index}
                 onClick={() => handleScroll(item.id)}
-                className="navbar-item"
+                className="cursor-pointer"
               >
                 <p className="xl:text-3xl md:text-xl text-sm font-normal  text-[#2d2b2b]">
                   {item.title}
